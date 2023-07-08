@@ -10,13 +10,13 @@ import urllib
 import argparse
 import threading
 import subprocess
-from platform import platform
+from instagram import instagram
 from Core.tor import TorManager
 from Core.Browser import Browser
 
 class Instagram(TorManager,Browser):
 	def __init__(self,username,wordlist):
-		self.username = username
+		self.samuelgonzalez687 = username
 		self.wordlist = wordlist
 		self.lock = threading.Lock()
 
